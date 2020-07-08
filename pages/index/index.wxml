@@ -1,11 +1,3 @@
-<!------------------------------------云储存示例------------------------------------------>
-<button bindtap="upload">上传图片</button>
-<image src="{{imgUrl}}"></image>
-<!------------------------------------云函数示例------------------------------------------>
-<button bindtap="getsum">云函数---加法</button>
-<button bindtap="getopenid">云函数---获取OpenID</button>
-<button bindtap="fun_getdata">云函数---获取数据</button>
-
 <!------------------------------------数据库操作示例--------------------------------------->
 <!-- 添加数据 -->
 <input placeholder="输入名字" bindinput="addName"></input>
@@ -20,3 +12,11 @@
 <input placeholder="输入需要修改的ID" bindinput="udpDataInput"></input>
 <input placeholder="输入需要修改的名字" bindinput="udpName"></input>
 <button bindtap="udpData" type="primary">更新数据</button>
+<!------------------------------------云函数示例------------------------------------------>
+<button bindtap="getsum">云函数---加法</button>
+<button bindtap="getopenid">云函数---获取OpenID</button>
+<button bindtap="fun_getdata">云函数---获取数据</button>
+
+<!------------------------------------云储存示例------------------------------------------>
+<button bindtap="upload">上传图片</button>
+<image src="{{imgUrl}}"></image>
